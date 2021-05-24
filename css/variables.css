@@ -1,0 +1,18 @@
+:root{
+    --estructuraInterna:1440px;
+    --headerHeight: 80px;
+    --headerColor: #F8F8F8;
+    
+    /*variables footer*/
+    --footerHeight: 270px;
+    --footerColor: rgba(35, 133, 224, 1);
+    --footerFontColor: #FFFFFF;
+    --footerFontSize:  1.125rem;
+    --listTitleWeight: 700;
+    --listPadding: 1vh;
+    --footerBottomSize: 30px;
+    --footerLeftWidth: 20%;
+    --footerRightSize:  70%;
+    --footerPadding: 1vh;
+
+}

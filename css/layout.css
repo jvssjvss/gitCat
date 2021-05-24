@@ -1,0 +1,7 @@
+.footer, .header, .main{
+    width: var(--estructuraInterna);
+}
+
+main, header{
+    justify-content: center;
+}
