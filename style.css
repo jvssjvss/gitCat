@@ -1,0 +1,81 @@
+@import url(css/reset.css);
+header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #F8F8F8;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 100px);
+}
+.header__logo{
+    height: 70px;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 40%;
+
+
+
+}
+
+.mainTop, .mainMid, .mainBottom, p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+p{
+    padding: 1.5vh;
+}
+.mainBottom{
+    flex-flow: row-reverse;}
+
+    
+a{
+    text-decoration: none;
+}
+
+footer{
+    padding-top: 2%;
+    background-color: rgba(35, 133, 224, 1);
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    box-sizing: border-box;
+    
+}
+
+.footer{
+    min-height: 270px;
+    display: flex;
+    box-sizing: border-box;
+
+
+}
+.footerRight{
+    display: flex;
+    flex-basis: 70%;
+    justify-content: flex-end;
+}
+.footer__list__title{
+    font-weight: 700;
+}
+li{
+    padding: 1vh;
+}
+.footerLeft{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+.footerBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
