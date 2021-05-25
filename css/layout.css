@@ -1,5 +1,6 @@
 .footer, .header, .main{
     width: var(--estructuraInterna);
+
 }
 
 main, header{

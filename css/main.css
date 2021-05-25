@@ -1,0 +1,16 @@
+
+.mainTop, .mainMid, .mainBottom, p, .main{
+    align-items: center;
+    justify-content: center;
+
+}
+p{
+    padding: 1.5vh;
+}
+.mainBottom{
+    flex-flow: row-reverse;}
+
+.header__logo:hover + .menu{
+    border: 5px red solid;
+}
+    

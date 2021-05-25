@@ -1,84 +1,11 @@
 @import url(css/reset.css);
 @import url(css/variables.css);
 @import url(css/layout.css);
+@import url(css/header.css);
+@import url(css/main.css);
+@import url(css/footer.css);
+
 
 header, .header,.menu, nav, .mainTop, .mainMid, .mainBottom, p, footer, .footer, .footerRight, .footerLeft, .footerBottom, main {
     display: flex;
 }
-/*header*/
-header{
-    align-items: center;
-    height: var(--headerHeight);
-    background-color: var(--headerColor);
-}
-.menu{
-    flex-basis: 1340px;
-    justify-content: center;
-}
-
-.header__logo{
-    height: 70px;
-
-}
-
-nav{
-    justify-content: space-evenly;
-    align-items: center;
-    flex-basis: 40%;
-    height: 100%;
-}
-a{
-    text-decoration: none;
-}
-
-.mainTop, .mainMid, .mainBottom, p, .main{
-    align-items: center;
-    justify-content: center;
-
-}
-p{
-    padding: 1.5vh;
-}
-.mainBottom{
-    flex-flow: row-reverse;}
-
-    
-
-
-footer{
-    padding-top: var(--footerPadding);
-    background-color: var(--footerColor);
-    color: var(--footerFontColor);
-    font-size: var(--footerFontSize);
-    box-sizing: border-box;
-    align-items: center;
-    flex-direction: column;
-    
-}
-
-.footer{
-    height: var(--footerHeight);
-    box-sizing: border-box;
-
-
-}
-.footerRight{
-    flex-basis: var(--footerRightSize);
-    justify-content: flex-end;
-}
-.footer__list__title{
-    font-weight: var(--listTitleWeight);
-}
-li{
-    padding: var(--listPadding);
-}
-.footerLeft{
-    width: var(--footerLeftWidth);
-    justify-content: space-evenly;
-}
-.footerBottom{
-    justify-content: center;
-    align-items: center;
-    height: var(--footerBottomSize);
-}
-
